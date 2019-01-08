@@ -6,4 +6,4 @@ Tool to classify James River Spinymussels *Pleurobema collina* and Notched Rainb
 
 Environmental Studies Project - 2019
 
-Utilizes Open CV and Python
+Utilizes Open CV and Javascript
