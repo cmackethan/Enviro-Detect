@@ -3,12 +3,12 @@
 /*UNIVERSAL STYLE*/
 
 body{ 
-	background-color: white;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: auto;
-	position: center;
-	justify-content: center;
+	background-color:white;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:auto;
+	position:center;
+	justify-content:center;
 }
 
 #logo{
@@ -22,11 +22,45 @@ body{
 
 #titleText{
 	margin:auto;
-	padding-bottom: 50px;
+	padding-bottom:50px;
 	text-align:center;
 	color:black;
 	font-family: Courier;
-	font-size: 40px;
+	font-size:40px;
+}
+
+*{
+	font-family:Courier;
 }
 
 /*IMAGEFRAME STYLE*/
+
+.imageFrame{
+	padding-top:20%;
+	padding-left:10%;
+}
+
+#imageInput{
+	color:black;
+	font-family:Courier;
+	font-size:20px;
+}
+
+#fileInput{
+	border-radius:50px;
+}
+
+input[type="file"]{
+    display:none;
+}
+
+.button{
+    border:1px solid #ccc;
+    display:inline-block;
+    padding:6px 12px;
+    cursor:pointer;
+}
+
+.buttondiv{
+	padding-top:30px;
+}
