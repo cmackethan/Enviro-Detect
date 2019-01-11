@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "",
+  "version": "",
+  "description": "Tool to classify James River Spinymussels *Pleurobema collina*, Notched Rainbow Mussels *Villosa Constricta* and Squawfoot Mussels *Strophitus undulatus*",
+  "dependencies": {
+    "mustache": "^3.0.1",
+    "mustache-express": "^1.2.8"
+  }
+}
