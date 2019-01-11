@@ -1,8 +1,9 @@
 //CODE!!!
 
 //where the mussel algorithm should be...
-//add express, node.js, opencv library, and/or synaptic.js if we need it
+//add express, node.js, opencv library, and/or synaptic.js if we need it\
 
+//some openCV framework
 let imgElement = document.getElementById("imageSrc")
 let inputElement = document.getElementById("fileInput");
 inputElement.addEventListener("change", (e) => {
