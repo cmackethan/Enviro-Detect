@@ -10,21 +10,35 @@
   </head>
 
   <body>
-  	<img id = "logo" src="./data/logo.png">
+    <img id = "logo" src="./data/logo.png">
 
-  	<p id= "titleText">Mussel Classifier</p>
+  	<p id= "titletext">Mussel Classifier</p>
     
-    <div class="imageFrame">
-      <img id="imageInput" alt="No Input" />
-      <div class="buttondiv">
-      <label for="fileInput" class="button">Image</label>
-      <input type="file" id="fileInput"/>
+    <div class="upperdiv">
+
+      <div class="imagediv">
+        <img id="imageinput" alt="No Input"/>
       </div>
-    </div>
+      <div class="outputdiv">
+        <img id="outputgraphic" alt="..."/>
+      </div>
 
-    <div class="output">
-      <!add some graphic to display results>
     </div>
+    
+    <div class="lowerdiv">
 
+      <div class="submitdiv">
+        <label for="submitbutton" class="button">Submit Image</label>
+        <input type="file" id="submitbutton"/>
+      </div>
+      <div class="algorithmdiv">
+        <label for="algorithmbutton" class="button">Classify Mussel</label>
+        <input type="submit" id="algorithmbutton"/>
+
+      <p id= "bottomtext">Environmental Statistics 2019</p>
+
+      </div>
+
+    </div>
   </body>
 </html>

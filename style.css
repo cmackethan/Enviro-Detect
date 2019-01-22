@@ -20,7 +20,7 @@ body{
 	padding:2%;
 }
 
-#titleText{
+#titletext{
 	margin:auto;
 	padding-bottom:50px;
 	text-align:center;
@@ -33,24 +33,40 @@ body{
 	font-family:Courier;
 }
 
-/*IMAGEFRAME STYLE*/
+/*UPPER/IMAGEFRAME STYLE*/
 
-.imageFrame{
+.imagediv{
 	padding-top:20%;
-	padding-left:10%;
+	padding-left:25%;
+	display:inline-block;
 }
 
-#imageInput{
+.outputdiv{
+	padding-top:20%
+	padding-left: 100px;
+	margin-left: 35%;
+	display:inline-block;
+}
+
+#imageinput{
 	color:black;
 	font-family:Courier;
 	font-size:20px;
 }
 
-#fileInput{
-	border-radius:50px;
+#outputgraphic{
+	color:black;
+	font-family:Courier;
+	font-size:20px;
 }
 
+/*LOWER/BUTTON STYLE*/
+
 input[type="file"]{
+    display:none;
+}
+
+input[type="submit"]{
     display:none;
 }
 
@@ -59,8 +75,37 @@ input[type="file"]{
     display:inline-block;
     padding:6px 12px;
     cursor:pointer;
+    font-weight:bold;
 }
 
-.buttondiv{
-	padding-top:30px;
+.submitdiv{
+	padding-top:20px;
+	padding-left:10%;
+	color:white;
+}
+
+.algorithmdiv{
+	padding-top:60px;
+	padding-left:10%;
+	color:white;
+}
+
+.lowerdiv{
+	background-color:black;
+	padding-bottom:50px;
+}
+
+#submitbutton{
+	border-radius:50px;
+}
+
+#algorithmbutton{
+	border-radius:50px;
+}
+
+#bottomtext{
+	margin-top:10%;
+	display:block;
+	text-align:right;
+	color:white;
 }
